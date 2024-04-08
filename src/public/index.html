@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta Tags -->
+	<meta charset="UTF-8">
+	<meta name="description" content="KM Online Works">
+	<meta name="keywords" content="KM Online Works">
+	<meta name="author" content="Kamran Mubarik">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- CSS Links -->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>setting</title>
+</head>
+<body onload="preloader()">
+	<div id="preloader">
+		<div class="lds-ripple">
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+	<div class="container" id="wrapper">
+		<div class="row">
+			<div class="col-md-3" id="sidebar">
+				
+				<ul class="nav flex-column">
+					<li class="nav-item">						 
+						<a class="nav-link" href="About.html"><i class="fal fa-home-alt"></i> Help</a>
+					</li>
+					<li class="nav-item">						 
+						<a class="nav-link active" href="setting.html"><i class="fal fa-tasks"></i> Setting</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Help.html"><i class="fal fa-info"></i> Help</a>
+					</li>
+					
+				</ul>
+				<i class="far fa-ellipsis-v"></i>
+				<div class="copyright">
+					<p>&copy; 2024 | Auto-Reply-Tool</p>
+				</div>
+			</div>
+			<div class="col-md-9">
+				<div id="main-area">
+					<div class="header-section">
+						
+					</div> <!--Header Section End -->
+					<form class="content-section" method="post" action="http://127.0.0.1:8002/save-data">
+						<label class = "color" for="smtpport">SMTP PORT:</label>
+						<input class = "border" type="text" id="smtpport" name="smtpport">
+					  
+						<br>
+					  
+						<label class = "color" for="host">HOST:</label>
+						<input class = "border" type="text" id="host" name="host">
+					  
+						<br>
+
+						<label class = "color" for="emailuser">Email User:</label>
+						<input class = "border" type="text" id="emailuser" name="emailuser">
+					  
+						<br>
+
+						<label class = "color" for="emailpass">Email Password:</label>
+						<input class = "border" type="text" id="emailpass" name="emailpass">
+					  
+						<br>
+					  
+						<label class = "color" for="fromdate">From:</label>:</label>
+						<input class = "border" type="date" id="fromdate" name="fromdate">
+					  
+						<br>
+
+						<br>
+						<label class = "color" for="inquiry_1">Inquiry Reply Content:</label>
+						<br>
+
+						<div class = "flex">
+                        <textarea class = "message" type="text" id="inquiry_1" name="inquiry_1"></textarea>
+
+						<div class = "red">Product</div>
+                        <textarea class = "message" type="text" id="inquiry_2" name="inquiry_2"></textarea>
+						</div>
+						<br>
+
+						<label class = "color" for="inquiry_1">BuyLead Reply Content:</label>
+						<br>
+
+						<div class = "flex">
+                        <textarea class = "message" type="text" id="_1" name="buylead_1"></textarea>
+
+						<div class = "red">Product</div>
+                        <textarea class = "message" type="text" id="buylead_2" name="buylead_2"></textarea>
+						</div>
+						<br>
+                       
+						<br>
+
+						
+
+
+					  
+						
+						<input class = "btn" type="submit" id="submit" name="submit" value="Submit"/>				
+						
+					</form> <!-- Content Section End -->
+					<div class="footer">
+						<div class="row">													
+							<div class="col-lg-4 col-md-12 order-lg-2"></div>
+							<div class="col-lg-8 col-md-12 order-lg-1 social-links">
+								<div class="social-links">
+									<a href="https://tradeIndia.com">
+										<i class="fas fa-globe"></i> Website
+									</a>
+									<a href="mailto:info@autoparthouse.net">
+										<i class="fal fa-envelope"></i> Email
+									</a>
+									<a href="https://web.facebook.com">
+										<i class="fab fa-facebook"></i> Facebook
+									</a>
+								</div>								
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<!-- JS Script Files -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/custom-function.js"></script>
+</body>
+</html>
