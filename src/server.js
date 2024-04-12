@@ -18,8 +18,8 @@ app.use(
   })
 );
 
-cron.schedule('0 * * * *', () => {
-  console.log('Running a task every hour');
+cron.schedule('*/10 * * * * *', () => {
+  console.log('Running a task every 10 seconds');
   inquirylogic();
   buyleadlogic();
 });
